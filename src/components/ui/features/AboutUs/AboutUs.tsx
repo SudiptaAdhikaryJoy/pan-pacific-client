@@ -24,7 +24,7 @@ const AboutUs = () => {
     getAboutus();
   }, []);
   return (
-    <div className="grid grid-cols-4">
+    <div className="grid grid-cols-4 gap-2">
       <div>
         <p>
           {aboutUs.map((about: AboutUsType, index: number) => (

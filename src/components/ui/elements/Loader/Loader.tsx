@@ -10,7 +10,6 @@ const Loader = () => {
           <Styled.Box1Before />
         </Styled.Box1>
         <Styled.LoaderText>
-          <Image src="/AFBL.svg" alt="Pan Pacific Logo" width={70} height={40} />
         </Styled.LoaderText>
       </Styled.LoaderContainer>
     </div>

@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className=" grid grid-cols-3">
+       <div className=" grid grid-cols-3">
         <div className="flex justify-center items-center">
           <Image src={logo} alt="hotelLogo" width={100} height={100} />
         </div>
@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex justify-center items-center">
           <h1>Login</h1>
         </div>
-      </div>
+      </div>      
     </div>
   )
 }

@@ -10,3 +10,7 @@ export type LoginForm = {
     email: string,
     password: string,
 }
+
+export interface logoType {
+    logo: string;
+}

@@ -23,6 +23,9 @@ const AboutUs = () => {
   useEffect(() => {
     getAboutus();
   }, []);
+  
+  console.log(aboutUs);
+
   return (
     <div className="grid grid-cols-4 gap-2">
       <div>
